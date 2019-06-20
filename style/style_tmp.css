@@ -31,8 +31,7 @@ body {
     -webkit-box-shadow: 0px 23px 39px 10px rgba(0,0,0,0.32);
     -moz-box-shadow: 0px 23px 39px 10px rgba(0,0,0,0.32);
     box-shadow: 0px 23px 39px 10px rgba(0,0,0,0.32);
-}
-body {
+    background: gainsboro;
     border: 0px;
     max-width: 1366px;
     width: 100%;
@@ -132,4 +131,62 @@ footer {
 	text-align: right;
     padding-right: 10%;
     width: 90%;
+}
+/* ++++++++++++++++++++++++++++++ RESPONSIVE +++++++++++
+/*Portatil de forma vertical */
+@media screen and (max-width:740px), and (orientation: portrait){
+    body {
+    border: 0px;
+    width: 100vh;
+    height: 100vh;
+}
+    .contProx {
+        width: 100vh;
+        height: 150vh;
+        background: url(../images/HomeImage.jpeg) center no-repeat;
+        background-size: cover;
+    }
+    .trip {
+    height: 100vh;
+    display: contents;
+    }
+
+.tiH3 {
+    font-size: 3em;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+    footer {
+        position: relative;
+        background: black;
+        text-align: center;
+        color: darkgray;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 100%;
+        }
+
+        .imgMobileLogo{
+            width: 100%;
+            height: auto;
+            background: white;
+        }
+    }
+/*     media para pantalla pequeÃƒÂ±a y horizontal */
+@media (min-width:470px) and (max-width:740px)  and (orientation: landscape){
+
+    }
+
+        /*TABLET VERTICAL*/
+
+@media  (min-width:470px) and (max-width:860px) {
+}
+
+    /*TABLET HORIZONTAL*/
+@media (min-width:861px) and (max-width:1024px) {
+
 }
