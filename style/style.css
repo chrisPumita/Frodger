@@ -362,7 +362,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
 .ContAbout{
     width: 100%;
     height: 100vh;
-    background: url(../images/aboutUs.jpeg) center fixed no-repeat;
+    background: url(../images/HomeImage.jpeg) center fixed no-repeat;
     background-size: cover;
 }
 
@@ -522,6 +522,8 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     height: auto;
     background-color: white;
     display: grid;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .tituloPrincipalContServ {
     background: black;
@@ -534,7 +536,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     width: 100%;
     height: 0%;
     display: flex;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .ttsH1{
@@ -601,6 +603,151 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     color: black !important;
     font-size: 1.5em;
 }
+
+.txtDer {
+    text-align: right;
+}
+
+/*Inicia Banner pequeño*/
+.Banner{
+    width: 100%;
+    height: 350px;
+    background: url(../images/imgBanner.jpeg) center fixed no-repeat;
+    background-size: cover;
+}
+.ContAjedresBanner {
+    width: 100%;
+    height: 10%;
+}
+
+.txtBannerCenter{
+    display: flow-root;
+    margin-top: 5%;
+}
+.contAnuncionBanner{
+    height: 90%;
+}
+
+/*GRID DE MARCAS*/
+
+.gridMarcas{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.marcaCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    width: 90%;
+    border-bottom: white solid 10px;
+}
+.imgMarca{
+    width: 80%;
+    height: auto;
+}
+.contAnuncioIMG{
+    width: 100%;
+    height: auto;
+    background-color: red;
+    display: flex;
+}
+
+.textoFloat{
+    width: 65%;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.h2txtAnuncio{
+    font-size: 2em;
+    color: black;
+}
+.h3txtAnuncio{
+    font-size: 1em;
+    text-align: left;
+}
+.textoFloatBTN{
+    width: 35%;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.logoBtn{
+    width: 40px;
+    padding-right: 10px;
+}
+
+.txtCondic{
+    font-size: 1em;
+    color: white;
+}
+
+/*Parte del contacto*/
+.contAddress{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+}
+
+.contTxtBox{
+    text-align: center;
+    justify-content: center;
+}
+.txtDataContacto {
+    display: flex;
+    text-align: -webkit-left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+}
+
+.imgRedes {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.txtData{
+    margin: 0 0 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 25px;
+    margin-inline-end: 0px;
+    font-size: 1.5em;
+}
+
+.contMap{
+    width: 100%;
+    height: 80vh;
+}
+.addresMi{
+    width: 50%;
+    height: auto;
+}
+
+
 p {
     margin: 0 0 10px;
     margin-top: 0px;
@@ -615,4 +762,18 @@ footer{
     background: black;
     text-align: center;
     color: azure;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: contents;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
 }
