@@ -12,6 +12,7 @@
     <meta name="description" content="Empresa que brinda servicio de hojalateria y pintura con mano de obra especializada y precios razonables buscando garantizar y superar las expectativas de nuestros clientes en la reparación de su automóvil." />
     <meta name="autor" content="ReCS!Gua-StuDios"/>
     <link rel="alternate" href="http://www.frodger.com/" hreflang="es-MX">
+    <script src="js/scripts.js"></script>
 </head>
 <body  id="frodger" data-spy="scroll" data-target=".navbar" data-offset="60">
 	<!--INICIANDO LA ESTRUCTURA BASICA ENCABEZADO-->
@@ -22,7 +23,8 @@
 		</video>
 		<div class="contH colorSemiDegradado">
 			<div class="contLogo">
-				<img class="logoImg" src="images/frodger_logo.png" alt="Logo de FRDOGER">
+				<a href="index.html">
+				<img class="logoImg" src="images/frodger_logo.png" alt="Logo de FRDOGER"></a>
 			</div>
 			<div class="contName">
 				<h1 class="h1Header">Hojalatería <img class="circleImg" src="images/color.png" alt="CiruloFrodger"> pintura </h1>
@@ -32,12 +34,14 @@
 			<div class="contName contLogosHeader">
 				<div class="credes">
 					<a target="_blank" href="https://www.facebook.com/Frodger.CDMX/">
-						<img class="logoRedes" src="images/facebook.png" alt="Logo de Facebook">	
-					</a>
-					<img class="logoRedes" src="images/instagram.png" alt="Logo de Facebook">
+						<img class="logoRedes" src="images/facebook.png" alt="Logo de Facebook"></a>
+					<a href="https://www.instagram.com/frodger.oficial/?hl=es-la"  target="_blank">
+						<img class="logoRedes" src="images/instagram.png" alt="Logo de Facebook"></a>
 					<img class="logoRedes" src="images/whatsapp.png" alt="Logo de Facebook">
 					<div class="txtTel">
-						<h1>56 8663 5038</h1>	
+						<a  href="https://wa.me/525686635038" target="_blank">
+							<h1>56 8663 5038</h1>	
+						</a>
 					</div>
 				</div>
 				<div class="ajedres">
@@ -263,7 +267,7 @@
 					</div>
 				</div>
 				<div class="txtGridUs">
-					<h1 class="titleGrid">ATENCION</h1>
+					<h1 class="titleGrid">ATENCIÓN</h1>
 					<p class="txtGridUsPlain"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam facilis incidunt ad magnam nesciunt.
 					</p>
 				</div>
@@ -364,7 +368,8 @@
 							<h1 class="txtAnuncio2">GRATIS</h1>
 						</div>
 						<div class="contAnuInside countBotonUnique">
-							<button class="button"><span>CONTACTO</span></button>
+							<a href="#contacto">
+							<button class="button"><span>CONTACTO</span></button></a>
 						</div>
 					</div>
 				</div>
@@ -623,7 +628,8 @@
 						<h1 class="txtAnuncio1"><strong class="alertText">NOS RESPALDA</strong></h1>
 					</div>
 					<div class="contAnuInside countBotonUnique">
-						<button class="button"><span>Ver catálogo</span></button>
+						<a href="catalogo.php">
+						<button class="button"><span>Ver catálogo</span></button></a>
 					</div>
 				</div>
 			</div>
@@ -667,9 +673,9 @@
 			</div>
 		</div>
 		<div class="contAnuncioIMG imgBx">
-			<img class="imagenAjustada img" src="images/imgAnuncio.jpeg">
+			<img class="imagenAjustada img" src="images/imgAnun.jpeg">
 			<div class="textoFloat colorSemiDegradado">
-				<p class="h2txtAnuncio">Vamos y cotizamos la reparacion de tu vehiculo <strong class="alertText">GRATIS</strong>* <br> <span  class="h3txtAnuncio">Meses sin intereses.<span> &nbsp;&nbsp;&nbsp;
+				<p class="h2txtAnuncio">Vamos y cotizamos la reparación de tu vehiculo <strong class="alertText">GRATIS</strong>* <br> <span  class="h3txtAnuncio">Meses sin intereses.<span> &nbsp;&nbsp;&nbsp;
 				<img class="imgBack" src="images/logoBank/card1.png" alt="">
 				<img class="imgBack" src="images/logoBank/card2.png" alt="">
 				<img class="imgBack" src="images/logoBank/card3.png" alt="">
@@ -684,7 +690,7 @@
 				<button class="button"><img class="logoBtn" src="images/whatsapp.png" alt="WhatsApp"/><span>Contactar</span></button>
 			</div>
 		</div>
-		<div class="contact">
+		<div id="contacto" class="contact">
 			<div class="titulo2">
 				<div class="SubtitleName">
 					<div class="tituloPrincipalContServ">
@@ -785,18 +791,18 @@
 				<iframe src="https://www.google.com/maps/d/embed?mid=12rC5u9GMB8h6AVutffW3SvtaYHM_Nvhp" width="100%" height="100%"></iframe>
 				<div class="contForm colorSemiDegradado">
 					<div class="solidContForm container">
-						<form action="/action_page.php">
+						<form action="send.php">
 							<h2 class="txtCotiza3">Cotiza envianodos tu información:</h2>
 						    <label for="fname">*Nombre</label>
-						    <input type="text" id="fname" name="firstname" placeholder="Escriba su nombre...">
+						    <input type="text" id="fname" name="firstname" placeholder="Escriba su nombre..." required>
 						    <label for="ftel">*Telefono</label>
-						    <input type="tel" id="ftel" name="telefono" placeholder="Escriba su teléfono...">
+						    <input type="tel" id="ftel" name="telefono" placeholder="Escriba su teléfono..." required>
 						    <label for="fmail">*Correo Electronico</label>
-						    <input type="text" id="fmail" name="mail" placeholder="Escriba su correo electrónico...">
+						    <input type="email" id="fmail" name="mail" placeholder="Escriba su correo electrónico..." required>
 						    <label for="fmarca">*Marca</label>
-						    <input type="tel" id="fmarca" name="marca" placeholder="Ejemplo (Nissan, Ford, Toyota)">
+						    <input type="tel" id="fmarca" name="marca" placeholder="Ejemplo (Nissan, Ford, Toyota)" required>
 						    <label for="fmodelo">*Modelo</label>
-						    <input type="text" id="fmodelo" name="modelo" placeholder="Ejemplo (Aveo, Sentra, Chevy)">
+						    <input type="text" id="fmodelo" name="modelo" placeholder="Ejemplo (Aveo, Sentra, Chevy)" required>
 						    <label for="fanio">Año</label>
 						    <select id="fanio" name="anio">
 						      <option value="2019">2019</option>
@@ -831,14 +837,13 @@
 						      <option value="1900">Anterior</option>
 						    </select>
 		    				<label for="subject">Comentario</label>
-    						<textarea id="subject" name="asunto" placeholder="Esciba su duda o comentario."></textarea>
+    						<textarea id="subject" name="asunto" placeholder="Esciba su duda o comentario." required></textarea>
 						    <input type="submit" value="Enviar">
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</section>
 	
 	<!--Pie de pagina-->

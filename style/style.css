@@ -16,6 +16,7 @@
     --font3: 'Love Ya Like A Sister', cursive;
 }
 
+
 .colorSemiDegradado {
     background: rgba(143,143,143,0.3);
     background: -moz-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%);
@@ -793,7 +794,8 @@ display: flex;
     color: white;
     margin: 1px;    
 }
-input[type=text], input[type=tel], select {
+input[type=text], input[type=tel],
+ input[type=email], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -903,4 +905,21 @@ footer{
     bottom: 0;
     width: 100%;
     position: fixed;
+}
+
+a, a:link, a:hover, a:visited {
+    text-decoration: none !important;
+    list-style: none;
+    color: red;
+}
+
+
+.header1{
+    display: grid;
+    width: 100%;
+    height: auto;
+    background: white;
+    background: url(../images/HomeImage.jpeg) center fixed no-repeat;
+    background-size: cover;
+    background-color: white;
 }
