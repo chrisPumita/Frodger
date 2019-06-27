@@ -12,11 +12,19 @@
     <meta name="description" content="Empresa que brinda servicio de hojalateria y pintura con mano de obra especializada y precios razonables buscando garantizar y superar las expectativas de nuestros clientes en la reparación de su automóvil." />
     <meta name="autor" content="ReCS!Gua-StuDios"/>
     <link rel="alternate" href="http://www.frodger.com/" hreflang="es-MX">
-    <script src="js/scripts.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
-<body  id="frodger" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body  id="frodger" data-spy="scroll" data-target=".navbar" data-offset="60" >
 	<!--INICIANDO LA ESTRUCTURA BASICA ENCABEZADO-->
+	<!--
+<span class="ir-arriba icon-arrow-up2">	&#9650;</span>
+	-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
+
 	<header id="header" class="colorSemiDegradado">
+		<!--
+		-->
 		<video autoplay muted loop id="myVideo">
 			<source src="video/video2.mp4" type="video/mp4">
 			Your browser does not support HTML5 video.
@@ -211,27 +219,64 @@
 			</div>
 		</div>
 	</header>
-	
+
 	<!--ARTS CONTENEDORES DE SECCIONES-->
 	<section>
 		<div class="slider">
 			<div class="contAbout colorSemiDegradado">
 			</div>
 			<div class="boxAbout">
-				<div class="flechaSlider">
-					<img class="arrowSLideriImg" src="images/left-arrow.png" alt="preview Icon">
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+						<div class="insideSlide">
+							<div class="imgSlider contenedorIMG">
+								<img class="imgPromo imagenAjustada" src="images/imgMIsion.jpeg" alt="">
+							</div>
+							<div class="txtContSlider">
+								<h1 class="txtSLiderH1">MISIÓN</h1>
+								<p class="txtSLider">
+									Ofrecer un servicio de hojalateria, pintura, restauración y reposición de piezas nuevas que sean de excelente calidad con precios justos y facilidades de pago.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="mySlides fade">
+						<div class="insideSlide">
+							<div class="imgSlider contenedorIMG">
+								<img class="imgPromo imagenAjustada" src="images/imgVision.jpeg" alt="">
+							</div>
+							<div class="txtContSlider">
+								<h1 class="txtSLiderH1">VISIÓN</h1>
+								<p class="txtSLider">
+									Garantizar y superar las expectativas de nuestros clientes en la reparación o restauración de su automóvil para que recomienden nuestra mano de obra especializada.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="mySlides fade">
+						<div class="insideSlide">
+							<div class="imgSlider contenedorIMG">
+								<img class="imgPromo imagenAjustada" src="images/question.jpeg" alt="">
+							</div>
+							<div class="txtContSlider">
+								<h1 class="txtSLiderH1">¿Sabías que?</h1>
+								<p class="txtSLider">
+									Para reducir la depreciación de tu auto en el momento de que decidas venderlo deberás de realizar una serie de pasos y buenas prácticas como: mantener un kilometraje bajo, reparar cualquier daño interior y maltrato a la carrocería, vender en la temporada correcta del año y evitar colores excéntricos.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
 				</div>
-				<div class="imgSlider">
-					<img class="imgPromo " src="images/imgMIsion.jpeg" alt="">
-				</div>
-				<div class="imgSlider">
-					<h1 class="txtSLiderH1">MISIÓN</h1>
-					<p class="txtSLider">
-						Ofrecer un servicio de hojalateria, pintura, restauración y reposición de piezas nuevas que sean de excelente calidad con precios justos y facilidades de pago.
-					</p>
-				</div>
-				<div class="flechaSlider">
-					<img class="arrowSLideriImg" src="images/right-arrow.png" alt="next icon">
+				<div style="text-align:center">
+					  <span class="dot" onclick="currentSlide(1)"></span> 
+					  <span class="dot" onclick="currentSlide(2)"></span> 
+					  <span class="dot" onclick="currentSlide(3)"></span> 
 				</div>
 			</div>
 		</div>
@@ -368,8 +413,7 @@
 							<h1 class="txtAnuncio2">GRATIS</h1>
 						</div>
 						<div class="contAnuInside countBotonUnique">
-							<a href="#contacto">
-							<button class="button"><span>CONTACTO</span></button></a>
+							<a href="#CONTACT"><button class="button"><span>CONTACTO</span></button></a>
 						</div>
 					</div>
 				</div>
@@ -687,14 +731,15 @@
 				<cite class="txtCondic">*Aplica condiciones</cite>
 			</div>
 			<div class="textoFloatBTN contAnuInside countBotonUnique colorSemiDegradado">
-				<button class="button"><img class="logoBtn" src="images/whatsapp.png" alt="WhatsApp"/><span>Contactar</span></button>
+				<a  href="https://wa.me/525686635038" target="_blank">
+				<button class="button"><img class="logoBtn" src="images/whatsapp.png" alt="WhatsApp"/><span>Contactar</span></button></a>
 			</div>
 		</div>
-		<div id="contacto" class="contact">
+		<div class="contact">
 			<div class="titulo2">
 				<div class="SubtitleName">
 					<div class="tituloPrincipalContServ">
-						<h2 class="ttsH1"><img class="circleImgTittle" src="images/color.png" alt="CiruloFrodger"> CONTACTO</h2>					
+						<h2 class="ttsH1"><img class="circleImgTittle" src="images/color.png" alt="CiruloFrodger"> CONTACTO</h2>
 					</div>
 				</div>
 				<div class="ContAjedresTittle">
@@ -787,7 +832,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="contMap">
+			<div  id="CONTACT"  class="contMap">
 				<iframe src="https://www.google.com/maps/d/embed?mid=12rC5u9GMB8h6AVutffW3SvtaYHM_Nvhp" width="100%" height="100%"></iframe>
 				<div class="contForm colorSemiDegradado">
 					<div class="solidContForm container">
@@ -860,5 +905,43 @@
 			<img class="imgLogoFR imgESR" src="images/esr.png" alt="Empresa Socialmente Resposable">
 		</div>
 	</footer>
+
+
+	<!-- 	Script Bootstrap JS Ref Navegator -->
+    <script src="js/scripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	<!-- 	Script Bootstrap JS Ref Navegator -->
+<script>
+$(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50});$("#header a").on('click', function(event) {if (this.hash !== "") {event.preventDefault();
+       var hash = this.hash;$('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+
+
 </body>
 </html>
