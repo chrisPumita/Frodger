@@ -100,7 +100,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
 .contName{
     width: 40%;
     height: 100px;
-    border-bottom: red solid 15px;
+    border-bottom: var(--primary) solid 15px;
     background: white;
 }
 
@@ -254,7 +254,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     background-color: black;
     position: relative;
     display: grid;
-    border-bottom: red solid 10px;
+    border-bottom: var(--primary) solid 10px;
 }
 
 /*SLIDER*/
@@ -323,7 +323,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
 }
 
 .ContCuentas:hover{
-    border-bottom: red solid 10px;
+    border-bottom: var(--primary) solid 10px;
     background: #9e9e9e;
     border-radius: 10px 10px 10px 10px;
 }
@@ -347,8 +347,6 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     width: 65%;
     height: 100%;
     display: block;
-    /* margin-right: 5%; */
-    /* margin-left: 5%; */
 }
 
 .ContAbout{
@@ -385,7 +383,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
 
 .titleGrid{
     font-size: 3em;
-    color: red;
+    color: var(--primary);
     margin: 0px;
     margin-right: 5%;
     margin-left: 5%;
@@ -420,7 +418,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border-bottom: red solid 10px;
+    border-bottom: var(--primary) solid 10px;
     font-size: 2.5em;
     background: white;
     border-radius: 0px 0px 10px 0px;
@@ -486,7 +484,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
 }
 
 .alertText{
-    color: red;
+    color: var(--primary);
 }
 .txtAnuncio1{
     font-size: 3.5em;
@@ -500,7 +498,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
 
 /*Estilo del boton*/
 .button {
-    background-color: red;
+    background-color: var(--primary);
     color: #FFFFFF;
     text-align: center;
     font-size: 3em;
@@ -509,11 +507,11 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     transition: all 0.5s;
     cursor: pointer;
     border-radius: 5px;
-    border: 0px solid red;
+    border: 0px solid var(--primary);
 }
 .button:hover{
     background-color: black;
-    color: red;
+    color: var(--primary);
 }
 
 /*SERVICES*/
@@ -550,12 +548,14 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     height: auto;
     display: block;
     margin-top: 20px;
+    position: relative;
 }
 
 .ContService {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
+    position: relative;
 }
 
 .IMGServ, .ContTxtServ2 {
@@ -630,7 +630,6 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
 }
 
 /*GRID DE MARCAS*/
-
 .gridMarcas{
     width: 100%;
     height: auto;
@@ -656,7 +655,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
 .contAnuncioIMG{
     width: 100%;
     height: auto;
-    background-color: red;
+    background-color: var(--primary);
     display: flex;
     position: relative;
 }
@@ -904,7 +903,7 @@ footer{
 a, a:link, a:hover, a:visited {
     text-decoration: none !important;
     list-style: none;
-    color: red;
+    color: white;
 }
 
 
@@ -1048,7 +1047,6 @@ a, a:link, a:hover, a:visited {
     border-bottom: red solid 10px;
 }
 
-/*Sliders cont styles*/
 /* Slideshow container */
 .slideshow-container {
     width: 100%;

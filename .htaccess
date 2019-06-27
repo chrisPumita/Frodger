@@ -1,0 +1,2 @@
+ErrorDocument 404 /info/404page.html
+ErrorDocument 403 /info/404page.html

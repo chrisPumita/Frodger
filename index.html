@@ -19,8 +19,7 @@
 	<!--
 <span class="ir-arriba icon-arrow-up2">	&#9650;</span>
 	-->
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
+	<a href="#header"><button id="myBtn" title="Go to top">&#9650;</button></a>
 
 	<header id="header" class="colorSemiDegradado">
 		<!--
@@ -925,14 +924,18 @@ function scrollFunction() {
 }
 
 // When the user clicks on the button, scroll to the top of the document
+/*
+
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+ */
 </script>
+
 	<!-- 	Script Bootstrap JS Ref Navegator -->
 <script>
-$(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50});$("#header a").on('click', function(event) {if (this.hash !== "") {event.preventDefault();
+$(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50});$("#frodger a").on('click', function(event) {if (this.hash !== "") {event.preventDefault();
        var hash = this.hash;$('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function(){
@@ -941,7 +944,7 @@ $(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50}
     }  // End if
   });
 });
-
+</script>
 
 </body>
 </html>
