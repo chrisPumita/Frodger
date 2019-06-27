@@ -211,25 +211,211 @@
 	<!--ARTS CONTENEDORES DE SECCIONES-->
 	<section>
 		<div class="slider">
-			<div class="boxAbout">
-				<div class="flechaSlider">
-					<img class="arrowSLideriImg" src="images/left-arrow.png" alt="preview Icon">
-				</div>
-				<div class="imgSlider">
-					<img class="imgPromo" src="images/promo.jpeg" alt="">
-				</div>
-				<div class="imgSlider">
-					<h1 class="txtSLiderH1">¡Tu nave como nueva al mejor precio!</h1>
-					<p class="txtSLider">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor commodi sunt numquam nihil veniam at voluptates possimus officiis fugiat, quam praesentium iure.
+			<div class="boxCite">
+					<p class="txtCiteP">
+						En Frodger nuestra visión es garantizar y superar las expectativas de nuestros clientes para que recomienden nuestra mano de obra especializada.
 					</p>
-				</div>
-				<div class="flechaSlider">
-					<img class="arrowSLideriImg" src="images/right-arrow.png" alt="next icon">
-				</div>
+					<cite class="directorCite">
+						Act. Fabián González Flores<br>
+						Director General
+					</cite>
 			</div>
 		</div>
 	</section>
+	
+	<section id="content">
+		<article id="proyect1">
+			<div id="catalogo" class="catalogo">
+				<div class="titulo2">
+					<div class="tittleCar">
+						<div class="tituloPrincipalContServ">
+							<h2 class="ttsH1"><img class="circuloGalry" src="images/color.png" alt="CiruloFrodger">&nbsp;&nbsp;&nbsp;Grand Voyager 1998</h2>					
+						</div>
+					</div>
+					<div class="ContAjedresTittle">
+						<div class="BigAge">
+							<div class="bCuadro">					
+								<div class="CC b c10"></div>
+								<div class="CC  "></div>
+								<div class="CC b c9"></div>
+								<div class="CC "></div>						
+								<div class="CC b c7"></div>
+								<div class="CC "></div>
+								<div class="CC b c5"></div>
+								<div class="CC "></div>	
+								<div class="CC b c4"></div>
+								<div class="CC "></div>
+								<div class="CC b c3"></div>
+								<div class="CC "></div>	
+								<div class="CC b c2"></div>
+								<div class="CC "></div>	
+								<div class="CC b c1"></div>
+								<div class="CC "></div>					
+							</div>
+							<div class="bCuadro">
+								<div class="CC"></div>
+								<div class="CC b c10"></div>
+								<div class="CC "></div>		
+								<div class="CC b c9"></div>
+								<div class="CC "></div>						
+								<div class="CC b c7"></div>
+								<div class="CC "></div>						
+								<div class="CC b c5"></div>
+								<div class="CC "></div>						
+								<div class="CC b c4"></div>
+								<div class="CC "></div>						
+								<div class="CC b c3"></div>
+								<div class="CC "></div>						
+								<div class="CC b c2"></div>
+								<div class="CC "></div>						
+								<div class="CC b c1"></div>
+							</div>
+
+							<div class="bCuadro">	
+								<div class="CC b c10"></div>
+								<div class="CC "></div>				
+								<div class="CC b c9"></div>
+								<div class="CC "></div>						
+								<div class="CC b c7"></div>
+								<div class="CC "></div>
+								<div class="CC b c5"></div>
+								<div class="CC "></div>	
+								<div class="CC b c4"></div>
+								<div class="CC "></div>
+								<div class="CC b c3"></div>
+								<div class="CC "></div>	
+								<div class="CC b c2"></div>
+								<div class="CC "></div>	
+								<div class="CC b c1"></div>
+								<div class="CC "></div>							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contProyecto">
+				<div class="contPhotoGalery">
+					<div class="photoGalery contenedorIMG">
+						<img class="imagenAjustada img" src="images/proyectos/190101VOYAGER/img1.jpg" alt="Paso uno">
+					</div>
+					<div class="photoGalery contenedorIMG">
+						<img class="imagenAjustada img" src="images/proyectos/190101VOYAGER/img2.jpg" alt="Paso dos">
+					</div>
+					<div class="photoGalery contenedorIMG">
+						<img class="imagenAjustada img" src="images/proyectos/190101VOYAGER/img3.png" alt="Paso tres">
+					</div>
+				</div>
+				<div class="contTextGalery">
+					<div class="txtDescGalery">
+						<h1 class="txtTitDesc">Hojalateria y Pintura</h1>
+						<p class="textDesc">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dignissimos illum, perspiciatis id ex accusantium quo. Delectus iste ad odio quasi maxime praesentium animi nam sequi accusamus deserunt. Soluta, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi excepturi distinctio incidunt sed neque placeat modi quos dolorum, asperiores dolores. Obcaecati recusandae reiciendis eum id quas animi quo rem? Fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sunt reiciendis cum vero obcaecati officia quas nesciunt fugiat eius, culpa reprehenderit esse nulla, aliquam voluptas iste magnam voluptatum molestias dicta.
+						</p>
+					</div>
+					<div class="contBotonGalery contBTNFacebook">
+							<a href="https://www.facebook.com/Frodger.CDMX/photos/a.631867323952002/636224893516245/?type=3&theater" target="_Blank">
+							<button class="button"><img class="logoBtn" src="images/facebook.png" alt="Galeria en facebook"><span>Ver mas...</span></button></a>
+					</div>
+				</div>
+			</div>
+		</article>
+		<article id="proyect2">
+			<div id="catalogo" class="catalogo">
+				<div class="titulo2">
+					<div class="tittleCar">
+						<div class="tituloPrincipalContServ">
+							<h2 class="ttsH1"><img class="circuloGalry" src="images/color.png" alt="CiruloFrodger">&nbsp;&nbsp;&nbsp;Mitsubishi Lancer 2014</h2>					
+						</div>
+					</div>
+					<div class="ContAjedresTittle">
+						<div class="BigAge">
+							<div class="bCuadro">					
+								<div class="CC b c10"></div>
+								<div class="CC  "></div>
+								<div class="CC b c9"></div>
+								<div class="CC "></div>						
+								<div class="CC b c7"></div>
+								<div class="CC "></div>
+								<div class="CC b c5"></div>
+								<div class="CC "></div>	
+								<div class="CC b c4"></div>
+								<div class="CC "></div>
+								<div class="CC b c3"></div>
+								<div class="CC "></div>	
+								<div class="CC b c2"></div>
+								<div class="CC "></div>	
+								<div class="CC b c1"></div>
+								<div class="CC "></div>					
+							</div>
+							<div class="bCuadro">
+								<div class="CC"></div>
+								<div class="CC b c10"></div>
+								<div class="CC "></div>		
+								<div class="CC b c9"></div>
+								<div class="CC "></div>						
+								<div class="CC b c7"></div>
+								<div class="CC "></div>						
+								<div class="CC b c5"></div>
+								<div class="CC "></div>						
+								<div class="CC b c4"></div>
+								<div class="CC "></div>						
+								<div class="CC b c3"></div>
+								<div class="CC "></div>						
+								<div class="CC b c2"></div>
+								<div class="CC "></div>						
+								<div class="CC b c1"></div>
+							</div>
+
+							<div class="bCuadro">	
+								<div class="CC b c10"></div>
+								<div class="CC "></div>				
+								<div class="CC b c9"></div>
+								<div class="CC "></div>						
+								<div class="CC b c7"></div>
+								<div class="CC "></div>
+								<div class="CC b c5"></div>
+								<div class="CC "></div>	
+								<div class="CC b c4"></div>
+								<div class="CC "></div>
+								<div class="CC b c3"></div>
+								<div class="CC "></div>	
+								<div class="CC b c2"></div>
+								<div class="CC "></div>	
+								<div class="CC b c1"></div>
+								<div class="CC "></div>							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contProyecto">
+				<div class="contPhotoGalery">
+					<div class="photoGalery contenedorIMG">
+						<img class="imagenAjustada img" src="images/proyectos/190201ATTITUDE/img1.jpg" alt="Paso uno">
+					</div>
+					<div class="photoGalery contenedorIMG">
+						<img class="imagenAjustada img" src="images/proyectos/190201ATTITUDE/img2.jpg" alt="Paso dos">
+					</div>
+					<div class="photoGalery contenedorIMG">
+						<img class="imagenAjustada img" src="images/proyectos/190201ATTITUDE/img3.jpg" alt="Paso tres">
+					</div>
+				</div>
+				<div class="contTextGalery">
+					<div class="txtDescGalery">
+						<h1 class="txtTitDesc">Hojalateria y Pintura</h1>
+						<p class="textDesc">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dignissimos illum, perspiciatis id ex accusantium quo. Delectus iste ad odio quasi maxime praesentium animi nam sequi accusamus deserunt. Soluta, quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi excepturi distinctio incidunt sed neque placeat modi quos dolorum, asperiores dolores. Obcaecati recusandae reiciendis eum id quas animi quo rem? Fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sunt reiciendis cum vero obcaecati officia quas nesciunt fugiat eius, culpa reprehenderit esse nulla, aliquam voluptas iste magnam voluptatum molestias dicta.
+						</p>
+					</div>
+					<div class="contBotonGalery contBTNFacebook">
+							<a href="https://www.facebook.com/Frodger.CDMX/photos/a.631867323952002/636224893516245/?type=3&theater" target="_Blank">
+							<button class="button"><img class="logoBtn" src="images/facebook.png" alt="Galeria en facebook"><span>Ver mas...</span></button></a>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+
 	<section>
 		<div id="contacto" class="contact">
 			<div class="titulo2">
@@ -298,6 +484,8 @@
 					</div>
 				</div>
 			</div>
+
+
 			<div class="contAddress contTxtBox">
 				<div class="addresMi">
 					<div class="txtDataContacto">
