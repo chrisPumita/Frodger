@@ -180,6 +180,8 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     width: 100%;
     height: 149px;
     display: flex;
+    background: white;
+    position: relative;
 }
 
 .contAjedrezBig{
@@ -491,7 +493,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     margin: 0px; 
 }
 .txtAnuncio2{
-    font-size: 5em;
+    font-size: 4em;
     margin: 0px; 
 }
 
@@ -597,7 +599,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     padding-bottom: 5%;
 }
 .tService {
-    font-size: 3.5em;
+    font-size: 3em;
     margin: 0px;
 }
 .booletword {
@@ -672,8 +674,9 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
 }
 
 .h2txtAnuncio{
-    font-size: 2em;
+    font-size: 1.6em;
     color: black;
+    margin-bottom: -50px;
 }
 .h3txtAnuncio{
     font-size: 1em;
@@ -716,8 +719,8 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
     justify-content: center;
 }
 .txtDataContacto {
-display: flex;
-    text-align: -webkit-left;
+    display: flex;
+    text-align: left;
     margin-top: 5px;
     margin-bottom: 5px;
     vertical-align: middle;
@@ -788,8 +791,8 @@ display: flex;
 input[type=text], input[type=tel],
  input[type=email], select {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 20px;
+    margin: 10px 0;
     display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -1167,7 +1170,7 @@ a, a:link, a:hover, a:visited {
     background-color: black
 }
 
-#myBtn {
+#myBtn, #myBtn2 {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -1183,6 +1186,80 @@ a, a:link, a:hover, a:visited {
   border-radius: 4px;
 }
 
-#myBtn:hover {
+#myBtn:hover, #myBtn2:hover {
   background-color: #555;
+}
+
+/*PAGE NOT FOUND*/
+.cont404{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.ops{
+    font-size: 4em;
+    margin: 0px; 
+}
+.number404{
+    text-align: -webkit-left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    position: relative;
+    align-items: center;
+    display: flex;
+    margin-top: auto;
+    height: 200px;
+}
+
+.btn404{
+    height: auto;
+    text-align: center;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.llanta
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+border: none;
+width: 300px;
+width:250px;
+height:250px;
+transition: 3s;
+-moz-transition: 3s;
+-webkit-transition: 3s;
+-o-transition: 3s;
+}
+.llanta:hover {
+transform:rotate(360deg);
+-ms-transform:rotate(360deg);
+-moz-transform:rotate(360deg);
+-webkit-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+}
+
+.txt4{
+    font-size: 15em !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.header404{
+    display: grid;
+    width: 100%;
+    height: auto;
+    background: white;
+    background: url(../images/img404.jpeg) center fixed no-repeat;
+    background-size: cover;
+    background-color: white;
 }

@@ -27,3 +27,27 @@ function showSlides(n) {
 }
 
 //end slider
+//
+//// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+
+/*  Script Bootstrap JS Ref Navegator */
+//Paginator effect
+$(document).ready(function(){$('body').scrollspy({target: ".navbar", offset: 50});$("#frodger a").on('click', function(event) {if (this.hash !== "") {event.preventDefault();
+       var hash = this.hash;$('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});

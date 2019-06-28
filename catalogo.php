@@ -4,6 +4,7 @@
 	<title>Froger - Hojalateria y Pintura</title>
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/style-responsive.css">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,6 +17,8 @@
 </head>
 <body  id="frodger" data-spy="scroll" data-target=".navbar" data-offset="60">
 	<!--INICIANDO LA ESTRUCTURA BASICA ENCABEZADO-->
+	<a href="#frodger"><button id="myBtn2" title="Go to top">&#9650;</button></a>
+
 	<header id="" class="colorSemiDegradado header1">
 		<div class="contH colorSemiDegradado">
 			<div class="contLogo">
@@ -589,5 +592,9 @@
 			<img class="imgLogoFR imgESR" src="images/esr.png" alt="Empresa Socialmente Resposable">
 		</div>
 	</footer>
+		<!-- 	Script Bootstrap JS Ref Navegator -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
