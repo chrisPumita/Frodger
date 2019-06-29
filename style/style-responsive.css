@@ -1,3 +1,4 @@
+/*Mobile vertical*/
 @media screen and (max-width:640px) {
 	body{
 		background: url(../images/img404.jpeg) center  no-repeat;
@@ -133,8 +134,17 @@
 	    padding: 2%;
 	}
 }
+
+/*MOBILE HORIZONTAL Y IPAD VERTICAL*/
 @media screen and (max-width:1024px) and (min-width:640px) {
-  /* reglas CSS */
+  .logoImg {
+	    width: 150px;
+	    padding: 15px;
+	}
+	.contLogo {
+	    width: 40%;
+	}
+
 }
 @media screen and (min-width:1024px) {
   /* reglas CSS */
