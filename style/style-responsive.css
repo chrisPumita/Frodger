@@ -1,8 +1,600 @@
-/*Mobile vertical*/
-@media screen and (max-width:640px) {
-	body{
+/*MOBILE HORIZONTAL Y IPAD VERTICAL*/
+@media screen and  (min-width:740px) and (max-width:900px) {
+  body {
+      max-width: 1024px;
+  }
+
+	 .logoImg {
+	    width: 90%;
+	    height: auto;
+	    padding: 5%;
+	}
+
+	.h1Header {
+	    font-size: 2em;
+	    text-align: center;
+	    margin-block-start: 0px;
+	    margin-block-end: 0px;
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	}
+
+	.contName {
+	    width: 45%;
+	    border-bottom: var(--primary) solid 10px;
+	    align-items: center;
+	    display: inline-table;
+	    padding-top: 25px;
+	    padding-bottom: 25px;
+	    /* width: 100%; */
+	    height: auto;
+	}
+		.contLogo {
+	    height: auto;
+	}
+
+	.contRedesResposive{
+    width: 35%;
+    display: block;
+    padding: 0px;
+    height: 70%;
+	}
+
+	.contH {
+	     height: 130px;
+	}
+
+	.logoRedes {
+	    width: 30px;
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	    margin: 10px 10px 0px 10px;
+	}
+
+	.credes {
+	    display: grid;
+	    width: 100%
+	}
+
+	.txtTel {
+	    width: 100%;
+	    font-size: 15px;
+	}
+
+	.telUp{
+		margin: 0px; 
+	}
+
+	.ajedres {
+	    width: 50%;
+	    height: auto;
+	    position: absolute;
+	    display: block;
+	    align-items: center;
+	    background: white;
+	    left: 50%;
+	}
+
+	.c {
+	    width: 10px;
+	    height: 10px;
+	}
+
+	.circleImgTittle {
+	    width: 25px;
+	}
+
+	.tituloPrincipalContServ {
+	    padding-left: 2%;
+	    padding-right: 2%;
+	    width: 96%;
+	}
+
+	.SubtitleName {
+	    height: 75px;
+	    display: flex;
+	    justify-content: flex-end;
+	    align-items: center;
+	    border-bottom: var(--primary) solid 5px;
+	    font-size: 2em;
+	    border-radius: 0px 0px 5px 0px;
+	}
+		.CT {
+	    width: 25px;
+	    height: 25px;
+	}
+
+	.mitadHome {
+	    width: 100%;
+	}
+	.mitadHome2 {
+	    width: 0%;
+	}
+	.contAjedrezBig {
+	    height: 42vh;
+	    position: relative;
+	}
+
+	.C {
+	    width: 70px;
+	    height: 70px;
+	}
+
+	.button {
+	    font-size: 1.5em;
+	    padding: 20px;
+	}
+
+	.boxAbout {
+	    top: -170px;
+	    width: 98%;
+	    height: 250px;
+	    margin-left: 1%;
+	    margin-right: 1%;
+	    border-bottom: var(--primary) solid 10px;
+	}
+
+	.contAbout {
+	    top: -100px;
+	    width: 90%;
+	    height: 100px;
+	    margin-left: 5%;
+	    margin-right: 5%;
+	}
+
+	.insideSlide {
+	    height: 200px;
+	}
+
+	.txtContSlider {
+	    padding-left: 3%;
+	        width: 57%;
+	}
+
+	.txtSLiderH1 {
+	    font-size: 1.5em;
+	}
+
+	.txtSLider {
+	    font-size: 1em;
+	}
+
+	.imgCuenta {
+	    width: 75px;
+	}
+
+	.titleGrid {
+	    font-size: 2em;
+	}
+
+	.txtGridUsPlain {
+	    font-size: 1em;
+	}
+	.ttH1 {
+	    text-align: left;
+	}
+	.leImgTittle {
+	    width: 25px;
+	}
+
+	.SubtitleName {
+	    font-size: 1.2em;
+	    border-radius: 0px 0px 0px 0px;
+	}
+
+	.ContAbout {
+	    height: 70vh;
+	    background: url(../images/HomeImage.jpeg) center  no-repeat;
+	}
+
+	.txtAnuncio1 {
+	    font-size: 2.1em;
+	}
+
+	.ttsH1 {
+	    text-align: left;
+	}
+
+		.imgBx {
+	    height: 250px;
+	}
+
+	.imgBannerPublicidad {
+	    height: 50vh;
+	}
+
+
+	.txtService {
+	    padding-left: 5%;
+	    padding-top: 5%;
+	    padding-right: 5%;
+	    padding-bottom: 5%;
+	}
+
+	.tService {
+	    font-size: 2em;
+	}
+
+	.booletword {
+	    font-size: 1.2em;
+	}
+
+	.txtAnuncio2 {
+	    font-size: 2.5em;
+	    margin: 0px;
+	}
+
+	.Banner {
+	    height: 200px;
+	    background: url(../images/imgBanner.jpeg) center  no-repeat;
+	    background-size: cover;
+	}
+
+
+	.sliderMarcas {
+	    height: 200px;
+	    padding-top: 50px;
+	}
+
+	.imgMarcas {
+	    height: 70px;
+	}
+
+	.slider .slide {
+	    width: 200px;
+	}
+
+	.h2txtAnuncio {
+	    font-size: 1em;
+	}
+	.textoFloat, .textoFloatBTN {
+	    height: 100px;
+	}
+	.logoBtn {
+	    width: 20px;
+	}
+
+	.imgRedes {
+	    margin: 10px;
+	    height: 30px;
+	}
+
+	.txtData {
+	    font-size: 1em;
+	    margin-inline-start: 5px;
+	}
+
+	.solidContForm {
+	    height: auto;
+	    position: relative;
+	}
+	.contForm {
+		bottom: auto;
+	    height: auto;
+	    width: 45%;
+	    right: 2%;
+	    top: 10%;
+	}
+
+	.telUp {
+	    margin-top: -15px;
+	}
+	.txtCotiza3 {
+	    font-size: 1.2em;
+	}
+
+		label {
+	    font-size: 1em;
+	}
+
+	input[type=text], input[type=tel], input[type=email], select {
+	    width: 100%;
+	    padding: 8px 10px;
+	    margin: 5px 0;
+	}
+
+	.imgESR {
+	    bottom: 0px;
+	    right: 35%;
+	    bottom: 35px;
+	}
+
+	.sliderAbout {
+	    margin-bottom: -150px;
+	}
+	.BigAge {
+	    height: 25px;
+	}
+
+	.txtNosotros {
+	    font-size: 1.4em;
+	}
+	.contMap {
+	    height: 65vh;
+	}
+		.imgLogoFR {
+	    height: 50px;
+	}
+	.h2txtAnuncio {
+	    font-size: 1em;
+	}
+
+
+	.txtCiteP {
+	    font-size: 1.5em;
+	}
+
+	.boxXite {
+	    margin-bottom: -112px;
+	}
+
+	.boxCite {
+	    top: -120px;
+	    height: 200px;
+	}
+
+
+	.photoGalery {
+	    height: 350px;
+	}
+
+	.tittleCar {
+	    font-size: 1em;
+	}
+	.txtTitDesc {
+	    font-size: 2em;
+	}
+
+	.textDesc {
+	    font-size: 1em;
+	}
+
+}
+
+/*MOBILE HORIZONTAL Y IPAD HORIZONTAL*/
+@media screen and  (min-width:1000px) and (max-width:1024px) {
+	.logoImg {
+	    width: 90%;
+	    height: auto;
+	    padding: 5%;
+	}
+	.telUp {
+	    margin-top: 0px;
+	}
+
+	.h1Header {
+	    font-size: 2.2em;
+	    text-align: center;
+	    margin-block-start: 0px;
+	    margin-block-end: 0px;
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	}
+
+	.contName {
+	    width: 45%;
+	    border-bottom: var(--primary) solid 10px;
+	    align-items: center;
+	    display: inline-table;
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	    /* width: 100%; */
+	    height: auto;
+	}
+
+	.contLogo {
+	    height: auto;
+	}
+
+	.logoRedes {
+	    width: 30px;
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	    margin: 10px 10px 0px 10px;
+	}
+
+	.txtTel {
+	    width: 100%;
+	    font-size: 15px;
+	}
+
+	.contRedesResposive {
+	    width: 35%;
+	    display: block;
+	    padding: 0px;
+	    height: 70%;
+	}
+	.credes {
+	    display: grid;
+	    width: 100%;
+	}
+
+	.ajedres {
+	    width: 50%;
+	    height: auto;
+	    position: absolute;
+	    display: block;
+	    align-items: center;
+	    background: white;
+	    left: 50%;
+	}
+
+	.c {
+	    width: 13px;
+	    height: 13px;
+	}
+
+	.contAjedrezBig {
+	    height: 75vh;
+	    position: relative;
+	}
+	.mitadHome {
+	    width: 100%;
+	}
+	.mitadHome2 {
+	    width: 0%;
+	}
+
+	.txtSLiderH1 {
+	    font-size: 2em;
+	}
+
+	.txtSLider {
+	    font-size: 1.2em;
+	}
+
+	.imgCuenta {
+	    width: 75px;
+	}
+
+	.titleGrid {
+	    font-size: 2em;
+	}
+	.txtGridUsPlain {
+	    font-size: 1em;
+	}
+
+	.circleImgTittle {
+	    width: 25px;
+	}
+
+	.SubtitleName {
+	    font-size: 1.5em;
+	    border-radius: 0px 0px 0px 0px;
+	        height: 75px;
+	}
+
+	.BigAge {
+	    height: 25px;
+	}
+	.CT {
+	    width: 25px;
+	    height: 25px;
+	}
+
+	.txtAnuncio1 {
+	    font-size: 2.5em;
+	}
+
+	.txtAnuncio2 {
+	    font-size: 3.5em;
+	    margin: 0px;
+	}
+	.button {
+	    font-size: 2em;
+	    padding: 25px;
+	}
+
+	.tService {
+	    font-size: 1.8em;
+	}
+
+	.booletword {
+	    font-size: 1.5em;
+	}
+
+	.ContAbout {
+	    background: url(../images/HomeImage.jpeg) center no-repeat;
+	}
+
+	.Banner {
+	    height: 250px;
+	    background: url(../images/imgBanner.jpeg) center no-repeat;
+	}
+
+	.imgBannerPublicidad {
+	    height: 80vh;
+	}
+
+	.textoFloat, .textoFloatBTN {
+	    height: 120px;
+	}
+	.h2txtAnuncio {
+	    margin-bottom: -25px;
+	        font-size: 1.3em;
+	}
+	.button {
+	    font-size: 2em;
+	    padding: 20px;
+	}
+	.logoBtn {
+	    width: 25px;
+	}
+
+	.imgRedes {
+	    margin: 10px;
+	    height: 30px;
+	}
+	.txtData {
+	    font-size: 1.3em;
+	}
+
+	input[type=text], input[type=tel], input[type=email], select {
+	    width: 100%;
+	    padding: 5px 5px;
+	    margin: 5px 0;
+	}
+	label {
+	    font-size: 1em;
+	}
+	.contForm {
+	    bottom: auto;
+	    height: auto;
+	}
+	.solidContForm {
+	    height: auto;
+	    position: relative;
+	}
+	.contMap {
+	    height: 85vh;
+	}
+	.imgLogoFR {
+	    height: 50px;
+	}
+	.txtCiteP {
+	    font-size: 1.5em;
+	}
+
+		.boxCite {
+	    top: -120px;
+	    height: 250px;
+	}
+
+	.photoGalery {
+	    height: 350px;
+	    margin-top: 2%;
+	    margin-bottom: 2%;
+	}
+
+	.txtTitDesc {
+	    font-size: 2em;
+	}
+
+	.textDesc {
+	    font-size: 1em;
+	}
+
+}
+
+
+@media  (min-width:470px) and (max-width:860px) {
+  body {
+        max-width: 1024px;
+      font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+      -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
+      -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
+      box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
+  }
+}
+
+/*Mobile de forma vertical */
+@media screen and (max-width:740px), and (orientation: portrait){
+  body {
+	    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
+	    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
+	    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
 		background: url(../images/img404.jpeg) center  no-repeat;
-			    background-size: cover;
+		background-size: cover;
 	}
   .contH {
 	    height: auto;
@@ -133,20 +725,23 @@
 	.contf3 {
 	    padding: 2%;
 	}
-}
 
-/*MOBILE HORIZONTAL Y IPAD VERTICAL*/
-@media screen and (max-width:1024px) and (min-width:640px) {
-  .logoImg {
-	    width: 150px;
-	    padding: 15px;
-	}
-	.contLogo {
-	    width: 40%;
-	}
 
 }
+
+
+/*     media para pantalla pequeÃƒÂ±a y horizontal */
+@media (min-width:470px) and (max-width:740px)  and (orientation: landscape){
+
+}
+
+
 @media screen and (min-width:1024px) {
   /* reglas CSS */
 }
 
+@media (min-width:861px) and (max-width:1024px) {
+  body {
+      max-width: 1024px;
+  }
+}

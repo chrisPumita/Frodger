@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Froger - Hojalateria y Pintura</title>
+	<title>Froger - Hojalateria y Pintura - Catalogo de nuestro trabajo</title>
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="style/style-responsive.css">
@@ -19,7 +19,7 @@
 	<!--INICIANDO LA ESTRUCTURA BASICA ENCABEZADO-->
 	<a href="#frodger"><button id="myBtn2" title="Go to top">&#9650;</button></a>
 
-	<header id="" class="colorSemiDegradado header1">
+	<header id="header" class="colorSemiDegradado">
 		<div class="contH colorSemiDegradado">
 			<div class="contLogo">
 				<a href="index.html">
@@ -30,16 +30,19 @@
 				<div class="ajedres">
 				</div>
 			</div>
-			<div class="contName contLogosHeader">
+			<div class="contName contLogosHeader contRedesResposive">
 				<div class="credes">
-					<a target="_blank" href="https://www.facebook.com/Frodger.CDMX/">
-						<img class="logoRedes" src="images/facebook.png" alt="Logo de Facebook"></a>
-					<a href="https://www.instagram.com/frodger.oficial/?hl=es-la"  target="_blank">
-						<img class="logoRedes" src="images/instagram.png" alt="Logo de Facebook"></a>
-					<img class="logoRedes" src="images/whatsapp.png" alt="Logo de Facebook">
+					<div class="inRedes">
+						<a target="_blank" href="https://www.facebook.com/Frodger.CDMX/">
+							<img class="logoRedes" src="images/facebook.png" alt="Logo de Facebook"></a>
+						<a href="https://www.instagram.com/frodger.oficial/?hl=es-la"  target="_blank">
+							<img class="logoRedes" src="images/instagram.png" alt="Logo de Facebook"></a>
+						<img class="logoRedes" src="images/whatsapp.png" alt="Logo de Facebook">
+						
+					</div>
 					<div class="txtTel">
 						<a  href="https://wa.me/525686635038" target="_blank">
-							<h1>56 8663 5038</h1>	
+							<h1 class="telUp">56 8663 5038</h1>	
 						</a>
 					</div>
 				</div>
@@ -137,7 +140,7 @@
 					<div class="bCuadro">					
 						<div class="C b C1"></div>
 						<div class="C "></div>						
-						<div class="C b C2"></div>
+						<div class="C b C2 cME"></div>
 						<div class="C "></div>
 						<div class="C b C3"></div>
 						<div class="C "></div>	
@@ -213,7 +216,7 @@
 	
 	<!--ARTS CONTENEDORES DE SECCIONES-->
 	<section>
-		<div class="slider">
+		<div class="sliderAbout boxXite">
 			<div class="boxCite">
 					<p class="txtCiteP">
 						En Frodger nuestra visión es garantizar y superar las expectativas de nuestros clientes para que recomienden nuestra mano de obra especializada.
@@ -420,11 +423,11 @@
 	</section>
 
 	<section>
-		<div id="contacto" class="contact">
+		<div class="contact">
 			<div class="titulo2">
 				<div class="SubtitleName">
 					<div class="tituloPrincipalContServ">
-						<h2 class="ttsH1"><img class="circleImgTittle" src="images/color.png" alt="CiruloFrodger"> CONTACTO</h2>					
+						<h2 class="ttsH1"><img class="circleImgTittle" src="images/color.png" alt="CiruloFrodger"> CONTACTO</h2>
 					</div>
 				</div>
 				<div class="ContAjedresTittle">
@@ -487,8 +490,6 @@
 					</div>
 				</div>
 			</div>
-
-
 			<div class="contAddress contTxtBox">
 				<div class="addresMi">
 					<div class="txtDataContacto">
@@ -508,29 +509,29 @@
 					<div class="txtDataContacto">
 						<img class="imgRedes" src="images/telephone.png">
 						<p class="txtData">
-							Av. Rio Consulado 1546, Vallejo, 07870 Ciudad de México, CDMX
+							55 3266 8386  <img class="circleImg" src="images/color.png" alt="CiruloFrodger"> 56 8663 5038
 						</p>
 					</div>
 					<div class="txtDataContacto">
 						<img class="imgRedes" src="images/mail.png">
 						<p class="txtData">
-							Lunes a Viernes 09:00 hrs. - 17:00 hrs.
+							contacto@frodger.com
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class="contMap">
+			<div  id="CONTACT"  class="contMap">
 				<iframe src="https://www.google.com/maps/d/embed?mid=12rC5u9GMB8h6AVutffW3SvtaYHM_Nvhp" width="100%" height="100%"></iframe>
 				<div class="contForm colorSemiDegradado">
 					<div class="solidContForm container">
-						<form action="send.php">
+						<form action="send.php" method="POST">
 							<h2 class="txtCotiza3">Cotiza envianodos tu información:</h2>
 						    <label for="fname">*Nombre</label>
-						    <input type="text" id="fname" name="firstname" placeholder="Escriba su nombre..." required>
+						    <input type="text" id="fname" name="nombre" placeholder="Escriba su nombre..." required>
 						    <label for="ftel">*Telefono</label>
-						    <input type="tel" id="ftel" name="telefono" placeholder="Escriba su teléfono..." required>
+						    <input type="tel" id="ftel" name="tel" placeholder="Escriba su teléfono..." required>
 						    <label for="fmail">*Correo Electronico</label>
-						    <input type="email" id="fmail" name="mail" placeholder="Escriba su correo electrónico..." required>
+						    <input type="email" id="fmail" name="correo" placeholder="Escriba su correo electrónico..." required>
 						    <label for="fmarca">*Marca</label>
 						    <input type="tel" id="fmarca" name="marca" placeholder="Ejemplo (Nissan, Ford, Toyota)" required>
 						    <label for="fmodelo">*Modelo</label>
@@ -569,7 +570,7 @@
 						      <option value="1900">Anterior</option>
 						    </select>
 		    				<label for="subject">Comentario</label>
-    						<textarea id="subject" name="asunto" placeholder="Esciba su duda o comentario." required></textarea>
+    						<textarea id="subject" name="comentario" placeholder="Esciba su duda o comentario." required></textarea>
 						    <input type="submit" value="Enviar">
 						</form>
 					</div>
