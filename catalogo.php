@@ -20,6 +20,10 @@
 	<a href="#frodger"><button id="myBtn2" title="Go to top">&#9650;</button></a>
 
 	<header id="header" class="colorSemiDegradado">
+		<video controls muted autoplay preload="auto"  playsinline  loop id="myVideo" poster="images/homeImg.jpeg">
+			<source src="https://st3.depositphotos.com/4908439/18332/v/600/depositphotos_183325022-stock-video-automechanic-polishing-a-black-new.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		</video>
 		<div class="contH colorSemiDegradado">
 			<div class="contLogo">
 				<a href="index.html">
@@ -27,7 +31,7 @@
 			</div>
 			<div class="contName">
 				<h1 class="h1Header">Hojalatería <img class="circleImg" src="images/color.png" alt="CiruloFrodger"> pintura </h1>
-				<div class="ajedres">
+				<div class="ajedres movileR">
 				</div>
 			</div>
 			<div class="contName contLogosHeader contRedesResposive">
@@ -525,10 +529,10 @@
 				<div class="contForm colorSemiDegradado">
 					<div class="solidContForm container">
 						<form action="send.php" method="POST">
-							<h2 class="txtCotiza3">Cotiza envianodos tu información:</h2>
+							<h2 class="txtCotiza3">Cotiza enviando tu información:</h2>
 						    <label for="fname">*Nombre</label>
 						    <input type="text" id="fname" name="nombre" placeholder="Escriba su nombre..." required>
-						    <label for="ftel">*Telefono</label>
+						    <label for="ftel">*Teléfono</label>
 						    <input type="tel" id="ftel" name="tel" placeholder="Escriba su teléfono..." required>
 						    <label for="fmail">*Correo Electronico</label>
 						    <input type="email" id="fmail" name="correo" placeholder="Escriba su correo electrónico..." required>
@@ -585,8 +589,8 @@
 		</div>
 		<div class="contf2">
 			<img class="imgLogoFR" src="images/iconPageBR.png" alt="Logo Frodger FR">
-			<h1 class="txtCotiza3">Aviso de Privacidad </h1>
-			<h1 class="txtCotiza3">Terminos y Condiciones </h1>
+			<a href="legales.html"><h1 class="txtCotiza3">Aviso de Privacidad </h1></a>
+			<a href="legales.html"><h1 class="txtCotiza3">Terminos y Condiciones </h1></a>
 			<h1 class="txtCotiza3">© 2019 FRODGER S.A. de C.V. Derechos Reservados. </h1>
 		</div>
 		<div class="contf3">
