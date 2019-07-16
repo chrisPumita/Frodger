@@ -62,6 +62,7 @@ body {
     margin: 0px;
     margin: auto;
     background: gainsboro;
+    overflow-x: unset;
 }
 
 
@@ -1551,6 +1552,9 @@ ul li input[type=checkbox]:checked ~ .contentLegal {
 
 
 /*
+
+animatedParent
+ */
 ul li input[type=checkbox]:checked ~ i:before {
   transform: translate(2px, 0) rotate(45deg);
 }
@@ -1607,50 +1611,53 @@ ul li input[type=checkbox]:checked ~ i:after {
 /* Botones */
 
 #mySidenav a {
-    left: -110px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 130px;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 0 5px 5px 0;
-    position: fixed;
-    z-index: 99;
-    display: flex;
+  position: absolute;
+  left: -110px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+  z-index: 99;
 }
 
 .imgBTNLink{
-    margin: 3px;
+    margin-top: auto;
+    margin-bottom: auto;
     width: auto;
-    margin-right: 14px;
-    margin-left: 14px;
-    height: 26px;
+    right: 0px;
+    margin-right: 12px;
+    height: 25px;
+    position: absolute;
 }
 
 #mySidenav a:hover {
   left: 0;
 }
 
-#about {
-  top: 20px;
-  background-color: #4CAF50;
-  color: #4CAF50;
-}
-
 #blog {
-  top: 80px;
+  top: 60px;
   background-color: #2196F3;
   color: #2196F3;
 }
 
 #projects {
-  top: 140px;
+  top: 115px;
   background-color: #f44336;
   color: #f44336;
 }
+#about {
+  top: 170px;
+  background-color: #4CAF50;
+  color: #4CAF50;
+}
+
 
 #contact {
-  top: 200px;
+  top: 225px;
   background-color: #000000;
   color: #000000;
 }
@@ -1662,3 +1669,12 @@ ul li input[type=checkbox]:checked ~ i:after {
 .grecaptcha-badge{
     z-index: -7;
 }
+
+.btnFlex{
+    width: 100%;
+}
+
+/*
+animatedParent
+
+ */
