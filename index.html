@@ -1,3 +1,4 @@
+<!-- ----- VERSION DEL DOCUMENTO ---------VERSION DEMO 1.15.1 BUILD 15.07.19 @autor: ReS!GuaStuD!os @website: facebook.com/recsigua @webdev: ChrisRCGS -->
 <!DOCTYPE html>
 <html lang="es"  style="overflow-x: hidden;">
 <head>
@@ -5,8 +6,11 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="robots" content="INDEX, FOLLOW, ARCHIVE" />
+	<meta name="keywords" content="" />
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="style/style-responsive.css">
+	<link rel="stylesheet" href="css/animations.css" type="text/css">
 	<meta name="format-detection" content="telephone=no">
     <meta name="title" content="FRODGER Taller de reparación de automóviles en Ciudad de México" />
     <meta name="description" content="Empresa que brinda servicio de hojalateria y pintura con mano de obra especializada y precios razonables buscando garantizar y superar las expectativas de nuestros clientes en la reparación de su automóvil." />
@@ -14,26 +18,38 @@
     <link rel="alternate" href="https://www.frodger.com/" hreflang="es-MX">
      <meta name="robots" content="INDEX, FOLLOW, ARCHIVE" />
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
 </head>
 <body  id="frodger" data-spy="scroll" data-target=".navbar" data-offset="60" >
 	<!--INICIANDO LA ESTRUCTURA BASICA ENCABEZADO-->
 	<a href="#header"><button id="myBtn" title="Go to top">&#9650;</button></a>
-
+	<div id="mySidenav" class="sidenav">
+		  <a target="_blank" href="https://www.facebook.com/Frodger.CDMX/"  id="blog">Facebook <img class="imgBTNLink" src="images/facebook.png" alt="Logo de Facebook"></a></a>
+		  <a target="_blank" href="#" id="about">WhatsApp <img class="imgBTNLink" src="images/whatsapp.png" alt="Logo de Facebook"></a>
+		  <a target="_blank" href="https://www.instagram.com/frodger.oficial/?hl=es-la" id="projects">Instagram <img class="imgBTNLink" src="images/instagram.png" alt="Logo de Facebook"></a></a>
+		  <a href="#CONTACT" id="contact">Contacto&nbsp;&nbsp;<img class="imgBTNLink" src="images/iconPageBR.png" alt="Logo Frodger FR"></a>
+	</div>
 	<header id="header" class="colorSemiDegradado">
 		<!--
-		-->
 		<video controls muted autoplay preload="auto"  playsinline  loop id="myVideo" poster="images/homeImg.jpeg">
 			<source src="https://st3.depositphotos.com/4908439/18332/v/600/depositphotos_183325022-stock-video-automechanic-polishing-a-black-new.mp4" type="video/mp4">
 			Your browser does not support HTML5 video.
 		</video>
-		<div class="contH colorSemiDegradado">
-			<div class="contLogo">
+
+		-->
+
+		<video muted playsinline  loop id="myVideo" poster="images/homeImg.jpeg">
+			<source src="https://st3.depositphotos.com/4908439/18332/v/600/depositphotos_183325022-stock-video-automechanic-polishing-a-black-new.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		</video>
+		<div class="contH colorSemiDegradado animatedParent">
+			<div class="contLogo ">
 				<a href="index.html">
-				<img class="logoImg" src="images/frodger_logo.png" alt="Logo de FRDOGER"></a>
+				<img class="logoImg animated fadeIn" src="images/frodger_logo.png" alt="Logo de FRDOGER"></a>
 			</div>
 			<div class="contName">
-				<h1 class="h1Header">Hojalatería <img class="circleImg" src="images/color.png" alt="CiruloFrodger"> pintura </h1>
+				<h1 class="h1Header animated growIn">Hojalatería <img class="circleImg" src="images/color.png" alt="CiruloFrodger"> pintura </h1>
 				<div class="ajedres movileR">
 				</div>
 			</div>
@@ -301,7 +317,7 @@
 				</div>
 				<div class="txtGridUs">
 					<h1 class="titleGrid">SOPORTE</h1>
-					<p class="txtGridUsPlain">Ofrecemos una respuesta inmediata a las dudas y requerimientos de nuestros clientes por medios de comunicación digitales y en línea para brindarle un informe de la reparación de su automóvil en el momento que lo requiera</p>
+					<p class="txtGridUsPlain">Ofrecemos una respuesta inmediata a las dudas y requerimientos de nuestros clientes por medios de comunicación digitales y en línea para brindarle un informe de la reparación de su automóvil en el momento que lo requiera.</p>
 				</div>
 			</div>
 			<div class=" ContCuentas area-g0"> 
@@ -492,19 +508,18 @@
 					</div>
 					<div class="ContTxtServ2">
 						<div class="txtService txtIzq">
-							<h2 class="tService">HOJALATERÍA</h2>
+							<h2 class="tService">HOJALATERÍA Y PINTURA</h2>
 							<p class="booletword">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ullam repellat quam, quisquam itaque necessitatibus et ut accusamus sint enim aliquam.
-							</p>
+								Ofrecemos reparación de piezas mediante técnicas novedosas, uso de herramienta especializada y materiales de reconocida marca para lograr una perfecta aplicación de pintura, servicio de pulido que  incluye abrillantado y encerado con la finalidad de alcanzar un excelente acabado.
 						</div>
 					</div>
 				</div>
 				<div class="ContService negariveRes">
 					<div class="ContTxtServ2">
 						<div class="txtService txtDer">
-							<h2 class="tService">PINTURA</h2>
+							<h2 class="tService">BAÑO DE PINTURA</h2>
 							<p class="booletword">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quas ut non adipisci quae officia corporis, quam! Magnam tempore dicta, amet, itaque ratione inventore minima fuga, at atque provident eligendi.
+								Gozamos de una amplia experiencia en la renovación de la pintura garantizando el igualado en colores sólidos y las diversas gamas de metalizados, perlados y pigmentos especiales o de moda, resaltando la resistencia y perfección del acabado con un abrillantado de barniz transparente.
 							</p>
 						</div>
 					</div>
@@ -517,14 +532,14 @@
 				<div class="ContService">
 					<div class="IMGServ">
 						<div class="imgBx contenedorIMG">
-							<img class="imagenAjustada img" src="images/soldadura.jpeg"> 
+							<img class="imagenAjustada img" src="images/barniz.jpeg"> 
 						</div>
 					</div>
 					<div class="ContTxtServ2">
 						<div class="txtService txtIzq">
-							<h2 class="tService">SOLDADURA</h2>
+							<h2 class="tService">CAMBIO DE COLOR</h2>
 							<p class="booletword">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ullam repellat quam, quisquam itaque necessitatibus et ut accusamus sint enim aliquam.
+								Cumplimos con los clientes más exigentes que desean  renovar por completo el color su automóvil, aplicando para ello diversos materiales, pinturas y transparentes de excelente calidad para poder garantizar un impecable acabado y una excelente tonalidad.
 							</p>
 						</div>
 					</div>
@@ -532,29 +547,29 @@
 				<div class="ContService negariveRes">
 					<div class="ContTxtServ2">
 						<div class="txtService txtDer">
-							<h2 class="tService">BARNIZ</h2>
+							<h2 class="tService">PULIDO, ABRILLANTADO Y ENCERADO</h2>
 							<p class="booletword">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quas ut non adipisci quae officia corporis, quam! Magnam tempore dicta, amet, itaque ratione inventore minima fuga, at atque provident eligendi.
+								Aplicamos técnicas novedosas para limpiar la pintura a profundidad de los residuos por exposición a los rayos ultra-violentas, marcas de agua, resinas de árboles, entre otros agentes contaminantes; además de eliminar rayones y otras imperfecciones para alcanzar un terminado «espejo».
 							</p>
 						</div>
 					</div>
 					<div class="IMGServ">
 						<div class="imgBx contenedorIMG">
-							<img class="imagenAjustada img" src="images/barniz.jpeg"> 
+							<img class="imagenAjustada img" src="images/pulido.jpeg"> 
 						</div>
 					</div>
 				</div>
 				<div class="ContService">
 					<div class="IMGServ">
 						<div class="imgBx contenedorIMG">
-							<img class="imagenAjustada img" src="images/pulido.jpeg"> 
+							<img class="imagenAjustada img" src="images/soldadura.jpeg"> 
 						</div>
 					</div>
 					<div class="ContTxtServ2">
 						<div class="txtService txtIzq">
-							<h2 class="tService">PULIDO Y ENCERADO</h2>
+							<h2 class="tService">OTROS SERVICIOS</h2>
 							<p class="booletword">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ullam repellat quam, quisquam itaque necessitatibus et ut accusamus sint enim aliquam.
+								Realizamos cambios de lienzos en puertas y costados dañados a causa del percance o del golpe; así como valoración física de vicios ocultos como barras de protección, esqueletos, armazones, estribos laterales del chasis, descanso inferior en puertas y contornos internos en general.
 							</p>
 						</div>
 					</div>
@@ -671,8 +686,8 @@
 						<h1 class="txtAnuncio1"><strong class="alertText">NOS RESPALDA</strong></h1>
 					</div>
 					<div class="contAnuInside countBotonUnique">
-						<a href="catalogo.php">
-						<button class="button"><span>Ver catálogo</span></button></a>
+						<a href="#">
+						<button class="button"  type="button" disabled><span>Ver catálogo</span></button></a>
 					</div>
 				</div>
 			</div>
@@ -875,7 +890,7 @@
 				<iframe src="https://www.google.com/maps/d/embed?mid=12rC5u9GMB8h6AVutffW3SvtaYHM_Nvhp" width="100%" height="100%"></iframe>
 				<div class="contForm colorSemiDegradado">
 					<div class="solidContForm container">
-						<form action="send.php" method="POST">
+						<form action="send.php" method="POST" enctype="multipart/form-data">
 							<h2 class="txtCotiza3">Cotiza enviando tu información:</h2>
 						    <label for="fname">*Nombre</label>
 						    <input type="text" id="fname" name="nombre" placeholder="Escriba su nombre..." required>
@@ -920,9 +935,13 @@
 						      <option value="1990">1990</option>
 						      <option value="1900">Anterior</option>
 						    </select>
+						     <label>Envie una foto</label><br>
+        					<input style="color: white;" type="file" name="txtImagen" accept="image/x-png,image/gif,image/jpeg"><br>
+	 						<br>
 		    				<label for="subject">Comentario</label>
     						<textarea id="subject" name="comentario" placeholder="Esciba su duda o comentario." required></textarea>
-						    <input type="submit" value="Enviar">
+						  <!--  <div class="g-recaptcha" data-sitekey="6Ldze60UAAAAAAYxW7xRUDt1WLOIw96TjSKU_lXD"></div> -->
+						    <input type="submit" value="Enviar" onclick="grecaptcha.execute()">
 						</form>
 					</div>
 				</div>
@@ -935,7 +954,8 @@
 		<div class="contf1">
 		</div>
 		<div class="contf2">
-			<img class="imgLogoFR" src="images/iconPageBR.png" alt="Logo Frodger FR">
+			<a href="index.html">
+			<img class="imgLogoFR" src="images/iconPageBR.png" alt="Logo Frodger FR"></a>
 			<a href="legales.html"><h1 class="txtCotiza3">Aviso de Privacidad </h1></a>
 			<a href="legales.html"><h1 class="txtCotiza3">Terminos y Condiciones </h1></a>
 			<h1 class="txtCotiza3">© 2019 FRODGER S.A. de C.V. Derechos Reservados. </h1>
@@ -945,11 +965,18 @@
 		</div>
 	</footer>
 
-
 	<!-- 	Script Bootstrap JS Ref Navegator -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+	<script src='js/css3-animate-it.js'></script>
+	  <script>
+	  	video=getElementsByTagName('myVideo'); 
+			function removeControls(video){ 
+			    video.removeAttribute('controls'); 
+			} 
+			window.onload=removeControls(video); 
+	  </script>
 
 </body>
 </html>

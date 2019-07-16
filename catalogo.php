@@ -12,13 +12,18 @@
     <meta name="title" content="FRODGER Taller de reparación de automóviles en Ciudad de México" />
     <meta name="description" content="Empresa que brinda servicio de hojalateria y pintura con mano de obra especializada y precios razonables buscando garantizar y superar las expectativas de nuestros clientes en la reparación de su automóvil." />
     <meta name="autor" content="ReCS!Gua-StuDios"/>
-    <link rel="alternate" href="http://www.frodger.com/" hreflang="es-MX">
+    <link rel="alternate" href="https://www.frodger.com/" hreflang="es-MX">
     <script src="js/scripts.js"></script>
 </head>
 <body  id="frodger" data-spy="scroll" data-target=".navbar" data-offset="60">
 	<!--INICIANDO LA ESTRUCTURA BASICA ENCABEZADO-->
 	<a href="#frodger"><button id="myBtn2" title="Go to top">&#9650;</button></a>
-
+	<div id="mySidenav" class="sidenav">
+		  <a target="_blank" href="https://www.facebook.com/Frodger.CDMX/"  id="blog">Facebook <img class="imgBTNLink" src="images/facebook.png" alt="Logo de Facebook"></a></a>
+		  <a target="_blank" href="#" id="about">WhatsApp <img class="imgBTNLink" src="images/whatsapp.png" alt="Logo de Facebook"></a>
+		  <a target="_blank" href="https://www.instagram.com/frodger.oficial/?hl=es-la" id="projects">Instagram <img class="imgBTNLink" src="images/instagram.png" alt="Logo de Facebook"></a></a>
+		  <a href="#CONTACT" id="contact">Contacto&nbsp;&nbsp;<img class="imgBTNLink" src="images/iconPageBR.png" alt="Logo Frodger FR"></a>
+	</div>
 	<header id="header" class="colorSemiDegradado">
 		<video controls muted autoplay preload="auto"  playsinline  loop id="myVideo" poster="images/homeImg.jpeg">
 			<source src="https://st3.depositphotos.com/4908439/18332/v/600/depositphotos_183325022-stock-video-automechanic-polishing-a-black-new.mp4" type="video/mp4">
@@ -528,7 +533,7 @@
 				<iframe src="https://www.google.com/maps/d/embed?mid=12rC5u9GMB8h6AVutffW3SvtaYHM_Nvhp" width="100%" height="100%"></iframe>
 				<div class="contForm colorSemiDegradado">
 					<div class="solidContForm container">
-						<form action="send.php" method="POST">
+						<form action="send.php" method="POST" enctype="multipart/form-data">
 							<h2 class="txtCotiza3">Cotiza enviando tu información:</h2>
 						    <label for="fname">*Nombre</label>
 						    <input type="text" id="fname" name="nombre" placeholder="Escriba su nombre..." required>
@@ -537,7 +542,7 @@
 						    <label for="fmail">*Correo Electronico</label>
 						    <input type="email" id="fmail" name="correo" placeholder="Escriba su correo electrónico..." required>
 						    <label for="fmarca">*Marca</label>
-						    <input type="tel" id="fmarca" name="marca" placeholder="Ejemplo (Nissan, Ford, Toyota)" required>
+						    <input type="text" id="fmarca" name="marca" placeholder="Ejemplo (Nissan, Ford, Toyota)" required>
 						    <label for="fmodelo">*Modelo</label>
 						    <input type="text" id="fmodelo" name="modelo" placeholder="Ejemplo (Aveo, Sentra, Chevy)" required>
 						    <label for="fanio">Año</label>
@@ -573,6 +578,9 @@
 						      <option value="1990">1990</option>
 						      <option value="1900">Anterior</option>
 						    </select>
+						     <label>Envie una foto</label><br>
+        					<input style="color: white;" type="file" name="txtImagen" accept="image/x-png,image/gif,image/jpeg"><br>
+	 						<br>
 		    				<label for="subject">Comentario</label>
     						<textarea id="subject" name="comentario" placeholder="Esciba su duda o comentario." required></textarea>
 						    <input type="submit" value="Enviar">

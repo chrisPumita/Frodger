@@ -1,0 +1,5 @@
+[28-Jun-2019 20:21:00 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home2/frodgerc/public_html/beta/send.php on line 22
+[28-Jun-2019 20:21:08 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home2/frodgerc/public_html/beta/send.php on line 22
+[28-Jun-2019 20:34:13 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home2/frodgerc/public_html/beta/send.php on line 22
+[13-Jul-2019 03:01:30 UTC] PHP Warning:  unlink(): No such file or directory in /home2/frodgerc/public_html/beta/send.php on line 241
+[13-Jul-2019 03:33:28 UTC] PHP Warning:  unlink(): No such file or directory in /home2/frodgerc/public_html/beta/send.php on line 241

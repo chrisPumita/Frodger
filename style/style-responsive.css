@@ -738,7 +738,8 @@
 	.txtData {
 	    margin-block-start: 0em;
 	    margin-block-end: 0em;
-	    margin-inline-start: 10px;
+	    margin-inline-start: 0px;
+	    margin-inline-end: 0px;
 	    font-size: 1em;
 	}
 
@@ -1196,6 +1197,33 @@ section{
     font-size: .8em;
 }
 
+	#mySidenav a {
+	    left: -80px;
+    	padding: 7px;
+	    width: 90px;
+	    font-size: 12px;
+	}
+
+	.imgBTNLink {
+	    width: auto;
+	    margin-left: 22px;
+	    height: 15px;
+	}
+
+	#about {
+	    top: 50px;
+	}
+	#blog {
+	    top: 85px;
+	}
+
+	#projects {
+	    top: 120px;
+	}
+	#contact {
+	    top: 155px;
+	}
+
 }
 
 
@@ -1602,7 +1630,7 @@ section{
 	    width: 50%;
 	    right: 2%;
 	    top: 5%;
-	    height: 500px;
+	    height: 560px;
 	}
 
 	iframe {
@@ -1638,7 +1666,7 @@ section{
     padding: 5px 5px;
 	}
 	.contMap {
-	    height: 550px;
+	    height: 600px;
 	    padding-bottom: 0px;
 	}
 
@@ -1741,5 +1769,57 @@ section{
 	.directorCite {
     font-size: .8em;
 }
+	#mySidenav a {
+	    left: -80px;
+	    padding: 7px;
+	    width: 90px;
+	    font-size: 12px;
+	}
 
+	.imgBTNLink {
+	    width: auto;
+	    margin-left: 22px;
+	    height: 15px;
+	}
+
+	#about {
+	    top: 50px;
+	}
+	#blog {
+	    top: 85px;
+	}
+
+	#projects {
+	    top: 120px;
+	}
+	#contact {
+	    top: 155px;
+	}
+
+	.llanta {
+	    width: 150px;
+	    height: 150px;
+	}
+
+	.txt4{
+	    font-size: 10em !important;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.number404 {
+	
+	    margin-top: 5px;
+	    margin-bottom: 0px;
+	    height: 150px;
+	}
+	.ops {
+	    font-size: 3em;
+	    margin: 0px;
+	}
+
+	.contAjedrezBig {
+	    height: 100vh;
+	    position: relative;
+	}
 }

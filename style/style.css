@@ -385,7 +385,7 @@ h1,h2,h3,h4,h5,h6 {font-family: "Corbel", sans-serif;}
 }
 
 .txtGridUsPlain{
-    width: 100%;
+    width: 90%;
     display: flex;
     position: relative;
     font-size: 1.3em;
@@ -782,7 +782,7 @@ iframe{
     height: auto;
     position: relative;
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     background: white;
 }
 .addresMi{
@@ -792,7 +792,7 @@ iframe{
 
 .contForm{
     width: 35%;
-    height: auto;
+    height: 850px;
     display: block;
     position: absolute;
     background-color: #02020296;
@@ -1550,6 +1550,7 @@ ul li input[type=checkbox]:checked ~ .contentLegal {
 
 
 
+/*
 ul li input[type=checkbox]:checked ~ i:before {
   transform: translate(2px, 0) rotate(45deg);
 }
@@ -1580,6 +1581,7 @@ ul li input[type=checkbox]:checked ~ i:after {
     transform: rotateX(0deg);
   }
 }
+ */
 
 .ulLegal{
     list-style-type: disc;
@@ -1600,4 +1602,63 @@ ul li input[type=checkbox]:checked ~ i:after {
     text-align: right;
     margin-bottom: 15px;
     margin-top: 15px;
+}
+
+/* Botones */
+
+#mySidenav a {
+    left: -110px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+}
+
+.imgBTNLink{
+    margin: 3px;
+    width: auto;
+    margin-right: 14px;
+    margin-left: 14px;
+    height: 26px;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+  color: #4CAF50;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+  color: #2196F3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+  color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #000000;
+  color: #000000;
+}
+
+#about:hover, #blog:hover, #projects:hover, #contact:hover{
+    color: white;
+}
+
+.grecaptcha-badge{
+    z-index: -7;
 }
